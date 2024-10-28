@@ -5,25 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Información</title>
     <style>
+        /* Configuración de estilos generales */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
-            background-color: #fff8e1;
-            padding: 50px;
-        }
-        h1 {
+            background-color: #f5f5f5;
             color: #333;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
+
+        /* Contenedor principal */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
         p {
-            font-size: 18px;
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #555;
         }
+
+        a {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #ff6f61;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        /* Efecto hover en los enlaces */
+        a:hover {
+            background-color: #e65c50;
+        }
+        
     </style>
 </head>
 <body>
     <h1>Información</h1>
-    <p>Esta página contiene información importante sobre nuestro sitio web.</p>
+
+    <p>Aquí encontrarás toda la información necesaria que requieras.</p>
+
     <p>Enlace a otras secciones:</p>
+
     <p><a href="/index">Volver al Inicio</a></p>
+
     <p><a href="/formulario">Ir al Formulario</a></p>
+
 </body>
 </html>
